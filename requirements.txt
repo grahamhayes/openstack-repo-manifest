@@ -1,0 +1,3 @@
+os-service-types
+requests
+pyyaml
