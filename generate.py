@@ -86,7 +86,7 @@ def main():
         pass
 
     with open("groups.rst", "a") as groups_file:
-        for group in full_group_list:
+        for group in sorted(full_group_list):
             groups_file.write("* %s \n" % group)
 
 
