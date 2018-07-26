@@ -1,3 +1,4 @@
+* adjutant 
 * application-catalog 
 * application-container 
 * application-deployment 
@@ -68,6 +69,7 @@
 * oslo 
 * packaging-rpm 
 * placement 
+* powervmstackers 
 * puppet-openstack 
 * qinling 
 * quality-assurance 

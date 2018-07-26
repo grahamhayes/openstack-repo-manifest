@@ -19,6 +19,7 @@
   <project groups="" name="openstack-dev/sandbox.git" path="openstack-dev/sandbox" />
   <project groups="release-management,offical" name="openstack-dev/specs-cookiecutter.git" path="openstack-dev/specs-cookiecutter" />
   <project groups="infrastructure,offical" name="openstack-infra/activity-board.git" path="openstack-infra/activity-board" />
+  <project groups="infrastructure,offical" name="openstack-infra/afsmon.git" path="openstack-infra/afsmon" />
   <project groups="infrastructure,offical" name="openstack-infra/ansible-role-puppet.git" path="openstack-infra/ansible-role-puppet" />
   <project groups="infrastructure,offical" name="openstack-infra/askbot-theme.git" path="openstack-infra/askbot-theme" />
   <project groups="" name="openstack-infra/beaker-localhost.git" path="openstack-infra/beaker-localhost" />
@@ -59,7 +60,7 @@
   <project groups="infrastructure,offical" name="openstack-infra/lpmqtt.git" path="openstack-infra/lpmqtt" />
   <project groups="infrastructure,offical" name="openstack-infra/meetbot.git" path="openstack-infra/meetbot" />
   <project groups="infrastructure,offical" name="openstack-infra/mqtt_statsd.git" path="openstack-infra/mqtt_statsd" />
-  <project groups="infrastructure,offical" name="openstack-infra/nodepool.git" path="openstack-infra/nodepool" />
+  <project groups="" name="openstack-infra/nodepool.git" path="openstack-infra/nodepool" />
   <project groups="infrastructure,offical" name="openstack-infra/nose-html-output.git" path="openstack-infra/nose-html-output" />
   <project groups="infrastructure,offical" name="openstack-infra/odsreg.git" path="openstack-infra/odsreg" />
   <project groups="infrastructure,offical" name="openstack-infra/openstack-zuul-jobs.git" path="openstack-infra/openstack-zuul-jobs" />
@@ -163,7 +164,7 @@
   <project groups="infrastructure,offical" name="openstack-infra/pynotedb.git" path="openstack-infra/pynotedb" />
   <project groups="infrastructure,offical" name="openstack-infra/pypi-mirror.git" path="openstack-infra/pypi-mirror" />
   <project groups="infrastructure,offical" name="openstack-infra/python-storyboardclient.git" path="openstack-infra/python-storyboardclient" />
-  <project groups="release-management,offical" name="openstack-infra/release-tools.git" path="openstack-infra/release-tools" />
+  <project groups="" name="openstack-infra/release-tools.git" path="openstack-infra/release-tools" />
   <project groups="infrastructure,offical" name="openstack-infra/releasestatus.git" path="openstack-infra/releasestatus" />
   <project groups="openstacksdk,offical,assert:follows-standard-deprecation" name="openstack-infra/requestsexceptions.git" path="openstack-infra/requestsexceptions" />
   <project groups="infrastructure,offical" name="openstack-infra/reviewday.git" path="openstack-infra/reviewday" />
@@ -181,27 +182,42 @@
   <project groups="infrastructure,offical" name="openstack-infra/yaml2ical.git" path="openstack-infra/yaml2ical" />
   <project groups="infrastructure,offical" name="openstack-infra/zmq-event-publisher.git" path="openstack-infra/zmq-event-publisher" />
   <project groups="" name="openstack-infra/zone-zuul-ci.org.git" path="openstack-infra/zone-zuul-ci.org" />
-  <project groups="infrastructure,offical" name="openstack-infra/zuul.git" path="openstack-infra/zuul" />
-  <project groups="infrastructure,offical" name="openstack-infra/zuul-base-jobs.git" path="openstack-infra/zuul-base-jobs" />
-  <project groups="infrastructure,offical" name="openstack-infra/zuul-jobs.git" path="openstack-infra/zuul-jobs" />
+  <project groups="" name="openstack-infra/zuul.git" path="openstack-infra/zuul" />
+  <project groups="" name="openstack-infra/zuul-base-jobs.git" path="openstack-infra/zuul-base-jobs" />
+  <project groups="" name="openstack-infra/zuul-jobs.git" path="openstack-infra/zuul-jobs" />
   <project groups="infrastructure,offical" name="openstack-infra/zuul-packaging.git" path="openstack-infra/zuul-packaging" />
-  <project groups="infrastructure,offical" name="openstack-infra/zuul-sphinx.git" path="openstack-infra/zuul-sphinx" />
+  <project groups="" name="openstack-infra/zuul-sphinx.git" path="openstack-infra/zuul-sphinx" />
   <project groups="" name="openstack-infra/zuul-website.git" path="openstack-infra/zuul-website" />
-  <project groups="" name="openstack/adjutant.git" path="openstack/adjutant" />
-  <project groups="" name="openstack/adjutant-ui.git" path="openstack/adjutant-ui" />
+  <project groups="" name="openstack-infra/zuul-website-media.git" path="openstack-infra/zuul-website-media" />
+  <project groups="adjutant,offical" name="openstack/adjutant.git" path="openstack/adjutant" />
+  <project groups="adjutant,offical" name="openstack/adjutant-ui.git" path="openstack/adjutant-ui" />
   <project groups="" name="openstack/aeromancer.git" path="openstack/aeromancer" />
   <project groups="" name="openstack/ailuropoda.git" path="openstack/ailuropoda" />
+  <project groups="" name="openstack/airship-armada.git" path="openstack/airship-armada" />
+  <project groups="" name="openstack/airship-berth.git" path="openstack/airship-berth" />
+  <project groups="" name="openstack/airship-deckhand.git" path="openstack/airship-deckhand" />
+  <project groups="" name="openstack/airship-divingbell.git" path="openstack/airship-divingbell" />
+  <project groups="" name="openstack/airship-drydock.git" path="openstack/airship-drydock" />
+  <project groups="" name="openstack/airship-in-a-bottle.git" path="openstack/airship-in-a-bottle" />
+  <project groups="" name="openstack/airship-maas.git" path="openstack/airship-maas" />
+  <project groups="" name="openstack/airship-pegleg.git" path="openstack/airship-pegleg" />
+  <project groups="" name="openstack/airship-promenade.git" path="openstack/airship-promenade" />
+  <project groups="" name="openstack/airship-shipyard.git" path="openstack/airship-shipyard" />
+  <project groups="" name="openstack/airship-specs.git" path="openstack/airship-specs" />
   <project groups="" name="openstack/alexandria.git" path="openstack/alexandria" />
   <project groups="" name="openstack/almanach.git" path="openstack/almanach" />
   <project groups="security,offical" name="openstack/anchor.git" path="openstack/anchor" />
-  <project groups="" name="openstack/ansible-config_template.git" path="openstack/ansible-config_template" />
+  <project groups="openstackansible,offical" name="openstack/ansible-config_template.git" path="openstack/ansible-config_template" />
   <project groups="openstackansible,offical" name="openstack/ansible-hardening.git" path="openstack/ansible-hardening" />
   <project groups="" name="openstack/ansible-role-ara.git" path="openstack/ansible-role-ara" />
   <project groups="" name="openstack/ansible-role-bindep.git" path="openstack/ansible-role-bindep" />
+  <project groups="" name="openstack/ansible-role-carbon.git" path="openstack/ansible-role-carbon" />
   <project groups="" name="openstack/ansible-role-cloud-launcher.git" path="openstack/ansible-role-cloud-launcher" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-container-registry.git" path="openstack/ansible-role-container-registry" />
   <project groups="" name="openstack/ansible-role-diskimage-builder.git" path="openstack/ansible-role-diskimage-builder" />
   <project groups="" name="openstack/ansible-role-fedmsg.git" path="openstack/ansible-role-fedmsg" />
   <project groups="" name="openstack/ansible-role-gearman.git" path="openstack/ansible-role-gearman" />
+  <project groups="" name="openstack/ansible-role-grafyaml.git" path="openstack/ansible-role-grafyaml" />
   <project groups="" name="openstack/ansible-role-jenkins.git" path="openstack/ansible-role-jenkins" />
   <project groups="" name="openstack/ansible-role-jenkins-job-builder.git" path="openstack/ansible-role-jenkins-job-builder" />
   <project groups="" name="openstack/ansible-role-jenkins-plugins.git" path="openstack/ansible-role-jenkins-plugins" />
@@ -210,28 +226,75 @@
   <project groups="tripleo,offical" name="openstack/ansible-role-k8s-glance.git" path="openstack/ansible-role-k8s-glance" />
   <project groups="tripleo,offical" name="openstack/ansible-role-k8s-keystone.git" path="openstack/ansible-role-k8s-keystone" />
   <project groups="tripleo,offical" name="openstack/ansible-role-k8s-mariadb.git" path="openstack/ansible-role-k8s-mariadb" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-k8s-rabbitmq.git" path="openstack/ansible-role-k8s-rabbitmq" />
   <project groups="tripleo,offical" name="openstack/ansible-role-k8s-tripleo.git" path="openstack/ansible-role-k8s-tripleo" />
   <project groups="" name="openstack/ansible-role-logrotate.git" path="openstack/ansible-role-logrotate" />
   <project groups="" name="openstack/ansible-role-nginx.git" path="openstack/ansible-role-nginx" />
   <project groups="" name="openstack/ansible-role-nodepool.git" path="openstack/ansible-role-nodepool" />
-  <project groups="" name="openstack/ansible-role-redhat-subscription.git" path="openstack/ansible-role-redhat-subscription" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-openstack-operations.git" path="openstack/ansible-role-openstack-operations" />
+  <project groups="" name="openstack/ansible-role-openstacksdk.git" path="openstack/ansible-role-openstacksdk" />
+  <project groups="openstackansible,offical" name="openstack/ansible-role-python_venv_build.git" path="openstack/ansible-role-python_venv_build" />
+  <project groups="openstackansible,offical" name="openstack/ansible-role-qdrouterd.git" path="openstack/ansible-role-qdrouterd" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-redhat-subscription.git" path="openstack/ansible-role-redhat-subscription" />
   <project groups="" name="openstack/ansible-role-shade.git" path="openstack/ansible-role-shade" />
   <project groups="" name="openstack/ansible-role-ssh.git" path="openstack/ansible-role-ssh" />
+  <project groups="" name="openstack/ansible-role-statsd.git" path="openstack/ansible-role-statsd" />
   <project groups="" name="openstack/ansible-role-sudoers.git" path="openstack/ansible-role-sudoers" />
-  <project groups="" name="openstack/ansible-role-systemd_mount.git" path="openstack/ansible-role-systemd_mount" />
-  <project groups="" name="openstack/ansible-role-systemd_networkd.git" path="openstack/ansible-role-systemd_networkd" />
-  <project groups="" name="openstack/ansible-role-systemd_service.git" path="openstack/ansible-role-systemd_service" />
+  <project groups="openstackansible,offical" name="openstack/ansible-role-systemd_mount.git" path="openstack/ansible-role-systemd_mount" />
+  <project groups="openstackansible,offical" name="openstack/ansible-role-systemd_networkd.git" path="openstack/ansible-role-systemd_networkd" />
+  <project groups="openstackansible,offical" name="openstack/ansible-role-systemd_service.git" path="openstack/ansible-role-systemd_service" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-aodh.git" path="openstack/ansible-role-tripleo-aodh" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-barbican.git" path="openstack/ansible-role-tripleo-barbican" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-ceilometer.git" path="openstack/ansible-role-tripleo-ceilometer" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-cinder.git" path="openstack/ansible-role-tripleo-cinder" />
+  <project groups="" name="openstack/ansible-role-tripleo-congress.git" path="openstack/ansible-role-tripleo-congress" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-cookiecutter.git" path="openstack/ansible-role-tripleo-cookiecutter" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-designate.git" path="openstack/ansible-role-tripleo-designate" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-glance.git" path="openstack/ansible-role-tripleo-glance" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-gnocchi.git" path="openstack/ansible-role-tripleo-gnocchi" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-haproxy.git" path="openstack/ansible-role-tripleo-haproxy" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-heat.git" path="openstack/ansible-role-tripleo-heat" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-horizon.git" path="openstack/ansible-role-tripleo-horizon" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-ironic.git" path="openstack/ansible-role-tripleo-ironic" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-keepalived.git" path="openstack/ansible-role-tripleo-keepalived" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-keystone.git" path="openstack/ansible-role-tripleo-keystone" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-manila.git" path="openstack/ansible-role-tripleo-manila" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-memcached.git" path="openstack/ansible-role-tripleo-memcached" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-mistral.git" path="openstack/ansible-role-tripleo-mistral" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-modify-image.git" path="openstack/ansible-role-tripleo-modify-image" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-neutron.git" path="openstack/ansible-role-tripleo-neutron" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-nova.git" path="openstack/ansible-role-tripleo-nova" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-octavia.git" path="openstack/ansible-role-tripleo-octavia" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-opendaylight.git" path="openstack/ansible-role-tripleo-opendaylight" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-ovn.git" path="openstack/ansible-role-tripleo-ovn" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-panko.git" path="openstack/ansible-role-tripleo-panko" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-qdrouterd.git" path="openstack/ansible-role-tripleo-qdrouterd" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-rabbitmq.git" path="openstack/ansible-role-tripleo-rabbitmq" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-rsyslog-sidecar.git" path="openstack/ansible-role-tripleo-rsyslog-sidecar" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-sahara.git" path="openstack/ansible-role-tripleo-sahara" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-sensu.git" path="openstack/ansible-role-tripleo-sensu" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-swift.git" path="openstack/ansible-role-tripleo-swift" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-tacker.git" path="openstack/ansible-role-tripleo-tacker" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-tempest.git" path="openstack/ansible-role-tripleo-tempest" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-ui.git" path="openstack/ansible-role-tripleo-ui" />
+  <project groups="tripleo,offical" name="openstack/ansible-role-tripleo-zaqar.git" path="openstack/ansible-role-tripleo-zaqar" />
   <project groups="" name="openstack/ansible-role-virtualenv.git" path="openstack/ansible-role-virtualenv" />
+  <project groups="" name="openstack/ansible-role-whisper.git" path="openstack/ansible-role-whisper" />
   <project groups="" name="openstack/ansible-role-zookeeper.git" path="openstack/ansible-role-zookeeper" />
   <project groups="" name="openstack/ansible-role-zuul.git" path="openstack/ansible-role-zuul" />
   <project groups="" name="openstack/anvil.git" path="openstack/anvil" />
   <project groups="telemetry,offical,assert:follows-standard-deprecation" name="openstack/aodh.git" path="openstack/aodh" />
   <project groups="" name="openstack/api-site.git" path="openstack/api-site" />
   <project groups="" name="openstack/api-wg.git" path="openstack/api-wg" />
+  <project groups="" name="openstack/apmec.git" path="openstack/apmec" />
+  <project groups="" name="openstack/apmec-horizon.git" path="openstack/apmec-horizon" />
   <project groups="" name="openstack/app-catalog.git" path="openstack/app-catalog" />
   <project groups="" name="openstack/app-catalog-common.git" path="openstack/app-catalog-common" />
   <project groups="" name="openstack/app-catalog-ui.git" path="openstack/app-catalog-ui" />
   <project groups="" name="openstack/ara.git" path="openstack/ara" />
+  <project groups="" name="openstack/ara-clients.git" path="openstack/ara-clients" />
+  <project groups="" name="openstack/ara-plugins.git" path="openstack/ara-plugins" />
+  <project groups="" name="openstack/ara-server.git" path="openstack/ara-server" />
   <project groups="" name="openstack/ara-web.git" path="openstack/ara-web" />
   <project groups="" name="openstack/arch-wg.git" path="openstack/arch-wg" />
   <project groups="" name="openstack/astara.git" path="openstack/astara" />
@@ -239,7 +302,7 @@
   <project groups="" name="openstack/astara-horizon.git" path="openstack/astara-horizon" />
   <project groups="" name="openstack/astara-neutron.git" path="openstack/astara-neutron" />
   <project groups="oslo,offical,stable:follows-policy" name="openstack/automaton.git" path="openstack/automaton" />
-  <project groups="security,offical" name="openstack/bandit.git" path="openstack/bandit" />
+  <project groups="" name="openstack/bandit.git" path="openstack/bandit" />
   <project groups="" name="openstack/bansho.git" path="openstack/bansho" />
   <project groups="barbican,offical,key-manager,vulnerability:managed,assert:follows-standard-deprecation,assert:supports-upgrade,stable:follows-policy" name="openstack/barbican.git" path="openstack/barbican" />
   <project groups="barbican,offical,key-manager" name="openstack/barbican-specs.git" path="openstack/barbican-specs" />
@@ -265,7 +328,7 @@
   <project groups="barbican,offical,key-manager,vulnerability:managed" name="openstack/castellan-ui.git" path="openstack/castellan-ui" />
   <project groups="" name="openstack/cathead.git" path="openstack/cathead" />
   <project groups="telemetry,offical,assert:follows-standard-deprecation,assert:supports-upgrade,tc:approved-release" name="openstack/ceilometer.git" path="openstack/ceilometer" />
-  <project groups="telemetry,offical" name="openstack/ceilometer-powervm.git" path="openstack/ceilometer-powervm" />
+  <project groups="powervmstackers,offical,stable:follows-policy" name="openstack/ceilometer-powervm.git" path="openstack/ceilometer-powervm" />
   <project groups="" name="openstack/ceilometer-zvm.git" path="openstack/ceilometer-zvm" />
   <project groups="telemetry,offical" name="openstack/ceilometermiddleware.git" path="openstack/ceilometermiddleware" />
   <project groups="" name="openstack/cerberus.git" path="openstack/cerberus" />
@@ -291,12 +354,14 @@
   <project groups="openstack-charms,offical" name="openstack/charm-designate.git" path="openstack/charm-designate" />
   <project groups="openstack-charms,offical" name="openstack/charm-designate-bind.git" path="openstack/charm-designate-bind" />
   <project groups="openstack-charms,offical" name="openstack/charm-glance.git" path="openstack/charm-glance" />
+  <project groups="openstack-charms,offical" name="openstack/charm-glance-simplestreams-sync.git" path="openstack/charm-glance-simplestreams-sync" />
   <project groups="openstack-charms,offical" name="openstack/charm-glusterfs.git" path="openstack/charm-glusterfs" />
   <project groups="openstack-charms,offical" name="openstack/charm-gnocchi.git" path="openstack/charm-gnocchi" />
   <project groups="openstack-charms,offical" name="openstack/charm-guide.git" path="openstack/charm-guide" />
   <project groups="openstack-charms,offical" name="openstack/charm-hacluster.git" path="openstack/charm-hacluster" />
   <project groups="openstack-charms,offical" name="openstack/charm-heat.git" path="openstack/charm-heat" />
   <project groups="" name="openstack/charm-interface-barbican-hsm.git" path="openstack/charm-interface-barbican-hsm" />
+  <project groups="openstack-charms,offical" name="openstack/charm-interface-bgp.git" path="openstack/charm-interface-bgp" />
   <project groups="openstack-charms,offical" name="openstack/charm-interface-bind-rndc.git" path="openstack/charm-interface-bind-rndc" />
   <project groups="openstack-charms,offical" name="openstack/charm-interface-ceph-client.git" path="openstack/charm-interface-ceph-client" />
   <project groups="openstack-charms,offical" name="openstack/charm-interface-ceph-mds.git" path="openstack/charm-interface-ceph-mds" />
@@ -333,6 +398,7 @@
   <project groups="openstack-charms,offical" name="openstack/charm-neutron-api-genericswitch.git" path="openstack/charm-neutron-api-genericswitch" />
   <project groups="openstack-charms,offical" name="openstack/charm-neutron-api-odl.git" path="openstack/charm-neutron-api-odl" />
   <project groups="" name="openstack/charm-neutron-api-plumgrid.git" path="openstack/charm-neutron-api-plumgrid" />
+  <project groups="openstack-charms,offical" name="openstack/charm-neutron-dynamic-routing.git" path="openstack/charm-neutron-dynamic-routing" />
   <project groups="openstack-charms,offical" name="openstack/charm-neutron-gateway.git" path="openstack/charm-neutron-gateway" />
   <project groups="openstack-charms,offical" name="openstack/charm-neutron-openvswitch.git" path="openstack/charm-neutron-openvswitch" />
   <project groups="openstack-charms,offical" name="openstack/charm-nova-cloud-controller.git" path="openstack/charm-nova-cloud-controller" />
@@ -375,7 +441,7 @@
   <project groups="" name="openstack/cloudroast.git" path="openstack/cloudroast" />
   <project groups="" name="openstack/cloudv-ostf-adapter.git" path="openstack/cloudv-ostf-adapter" />
   <project groups="" name="openstack/cognitive.git" path="openstack/cognitive" />
-  <project groups="" name="openstack/collectd-ceilometer-plugin.git" path="openstack/collectd-ceilometer-plugin" />
+  <project groups="" name="openstack/collectd-openstack-plugins.git" path="openstack/collectd-openstack-plugins" />
   <project groups="" name="openstack/compass-adapters.git" path="openstack/compass-adapters" />
   <project groups="" name="openstack/compass-core.git" path="openstack/compass-core" />
   <project groups="" name="openstack/compass-install.git" path="openstack/compass-install" />
@@ -386,6 +452,7 @@
   <project groups="congress,offical,operator-policy" name="openstack/congress-dashboard.git" path="openstack/congress-dashboard" />
   <project groups="congress,offical,operator-policy" name="openstack/congress-specs.git" path="openstack/congress-specs" />
   <project groups="congress,offical,operator-policy" name="openstack/congress-tempest-plugin.git" path="openstack/congress-tempest-plugin" />
+  <project groups="documentation,offical" name="openstack/constellations.git" path="openstack/constellations" />
   <project groups="documentation,offical" name="openstack/contributor-guide.git" path="openstack/contributor-guide" />
   <project groups="" name="openstack/conveyor.git" path="openstack/conveyor" />
   <project groups="chef-openstack,offical" name="openstack/cookbook-openstack-application-catalog.git" path="openstack/cookbook-openstack-application-catalog" />
@@ -397,6 +464,7 @@
   <project groups="chef-openstack,offical" name="openstack/cookbook-openstack-dashboard.git" path="openstack/cookbook-openstack-dashboard" />
   <project groups="" name="openstack/cookbook-openstack-data-processing.git" path="openstack/cookbook-openstack-data-processing" />
   <project groups="" name="openstack/cookbook-openstack-database.git" path="openstack/cookbook-openstack-database" />
+  <project groups="chef-openstack,offical" name="openstack/cookbook-openstack-dns.git" path="openstack/cookbook-openstack-dns" />
   <project groups="chef-openstack,offical" name="openstack/cookbook-openstack-identity.git" path="openstack/cookbook-openstack-identity" />
   <project groups="chef-openstack,offical" name="openstack/cookbook-openstack-image.git" path="openstack/cookbook-openstack-image" />
   <project groups="chef-openstack,offical" name="openstack/cookbook-openstack-integration-test.git" path="openstack/cookbook-openstack-integration-test" />
@@ -406,6 +474,7 @@
   <project groups="chef-openstack,offical" name="openstack/cookbook-openstack-ops-messaging.git" path="openstack/cookbook-openstack-ops-messaging" />
   <project groups="chef-openstack,offical" name="openstack/cookbook-openstack-orchestration.git" path="openstack/cookbook-openstack-orchestration" />
   <project groups="chef-openstack,offical" name="openstack/cookbook-openstack-telemetry.git" path="openstack/cookbook-openstack-telemetry" />
+  <project groups="chef-openstack,offical" name="openstack/cookbook-openstackclient.git" path="openstack/cookbook-openstackclient" />
   <project groups="" name="openstack/coreos-image-builder.git" path="openstack/coreos-image-builder" />
   <project groups="" name="openstack/coupler.git" path="openstack/coupler" />
   <project groups="quality-assurance,offical" name="openstack/coverage2sql.git" path="openstack/coverage2sql" />
@@ -415,7 +484,7 @@
   <project groups="" name="openstack/cue-dashboard.git" path="openstack/cue-dashboard" />
   <project groups="" name="openstack/cursive.git" path="openstack/cursive" />
   <project groups="cyborg,offical" name="openstack/cyborg.git" path="openstack/cyborg" />
-  <project groups="" name="openstack/cyborg-specs.git" path="openstack/cyborg-specs" />
+  <project groups="cyborg,offical" name="openstack/cyborg-specs.git" path="openstack/cyborg-specs" />
   <project groups="" name="openstack/daisycloud-core.git" path="openstack/daisycloud-core" />
   <project groups="" name="openstack/dash-stack.git" path="openstack/dash-stack" />
   <project groups="" name="openstack/deb-alembic.git" path="openstack/deb-alembic" />
@@ -814,6 +883,8 @@
   <project groups="" name="openstack/evoque-dashboard.git" path="openstack/evoque-dashboard" />
   <project groups="" name="openstack/faafo.git" path="openstack/faafo" />
   <project groups="" name="openstack/fairy-slipper.git" path="openstack/fairy-slipper" />
+  <project groups="" name="openstack/fenix.git" path="openstack/fenix" />
+  <project groups="" name="openstack/fixtures-git.git" path="openstack/fixtures-git" />
   <project groups="" name="openstack/flame.git" path="openstack/flame" />
   <project groups="" name="openstack/foxnut.git" path="openstack/foxnut" />
   <project groups="freezer,offical" name="openstack/freezer.git" path="openstack/freezer" />
@@ -984,6 +1055,7 @@
   <project groups="" name="openstack/gerrit-dash-creator.git" path="openstack/gerrit-dash-creator" />
   <project groups="" name="openstack/gertty.git" path="openstack/gertty" />
   <project groups="" name="openstack/giftwrap.git" path="openstack/giftwrap" />
+  <project groups="" name="openstack/git-nit.git" path="openstack/git-nit" />
   <project groups="" name="openstack/git-repo-manifests.git" path="openstack/git-repo-manifests" />
   <project groups="" name="openstack/git-upstream.git" path="openstack/git-upstream" />
   <project groups="glance,offical,image,assert:follows-standard-deprecation,assert:supports-upgrade,tc:approved-release,starter-kit:compute,vulnerability:managed,stable:follows-policy" name="openstack/glance.git" path="openstack/glance" />
@@ -1006,7 +1078,7 @@
   <project groups="" name="openstack/group-based-policy-specs.git" path="openstack/group-based-policy-specs" />
   <project groups="" name="openstack/group-based-policy-ui.git" path="openstack/group-based-policy-ui" />
   <project groups="" name="openstack/ha-guide.git" path="openstack/ha-guide" />
-  <project groups="heat,offical,orchestration,tc:approved-release,vulnerability:managed,assert:follows-standard-deprecation,assert:supports-upgrade,stable:follows-policy" name="openstack/heat.git" path="openstack/heat" />
+  <project groups="heat,offical,orchestration,tc:approved-release,vulnerability:managed,assert:follows-standard-deprecation,assert:supports-upgrade,stable:follows-policy,assert:supports-rolling-upgrade" name="openstack/heat.git" path="openstack/heat" />
   <project groups="heat,offical,orchestration" name="openstack/heat-agents.git" path="openstack/heat-agents" />
   <project groups="heat,offical,orchestration" name="openstack/heat-cfntools.git" path="openstack/heat-cfntools" />
   <project groups="heat,offical,orchestration" name="openstack/heat-dashboard.git" path="openstack/heat-dashboard" />
@@ -1034,7 +1106,7 @@
   <project groups="ironic,offical,baremetal,tc:approved-release,stable:follows-policy,assert:supports-upgrade,assert:supports-accessible-upgrade,assert:supports-rolling-upgrade,assert:follows-standard-deprecation" name="openstack/ironic.git" path="openstack/ironic" />
   <project groups="ironic,offical,baremetal,stable:follows-policy,assert:supports-upgrade,assert:supports-accessible-upgrade,assert:follows-standard-deprecation" name="openstack/ironic-inspector.git" path="openstack/ironic-inspector" />
   <project groups="ironic,offical,baremetal" name="openstack/ironic-inspector-specs.git" path="openstack/ironic-inspector-specs" />
-  <project groups="ironic,offical,baremetal" name="openstack/ironic-inspector-tempest-plugin.git" path="openstack/ironic-inspector-tempest-plugin" />
+  <project groups="" name="openstack/ironic-inspector-tempest-plugin.git" path="openstack/ironic-inspector-tempest-plugin" />
   <project groups="ironic,offical,baremetal,stable:follows-policy" name="openstack/ironic-lib.git" path="openstack/ironic-lib" />
   <project groups="ironic,offical,baremetal,stable:follows-policy" name="openstack/ironic-python-agent.git" path="openstack/ironic-python-agent" />
   <project groups="ironic,offical,baremetal" name="openstack/ironic-python-agent-builder.git" path="openstack/ironic-python-agent-builder" />
@@ -1052,12 +1124,13 @@
   <project groups="karbor,offical,data-protection-orchestration" name="openstack/karbor-dashboard.git" path="openstack/karbor-dashboard" />
   <project groups="quality-assurance,offical" name="openstack/karma-subunit-reporter.git" path="openstack/karma-subunit-reporter" />
   <project groups="" name="openstack/kayobe.git" path="openstack/kayobe" />
+  <project groups="" name="openstack/kayobe-config.git" path="openstack/kayobe-config" />
   <project groups="keystone,offical,identity,tc:approved-release,starter-kit:compute,vulnerability:managed,assert:follows-standard-deprecation,assert:supports-upgrade,stable:follows-policy" name="openstack/keystone.git" path="openstack/keystone" />
   <project groups="keystone,offical,identity" name="openstack/keystone-specs.git" path="openstack/keystone-specs" />
   <project groups="keystone,offical,identity" name="openstack/keystone-tempest-plugin.git" path="openstack/keystone-tempest-plugin" />
   <project groups="keystone,offical,identity,stable:follows-policy" name="openstack/keystoneauth.git" path="openstack/keystoneauth" />
   <project groups="" name="openstack/keystoneauth-saml2.git" path="openstack/keystoneauth-saml2" />
-  <project groups="keystone,offical,identity,stable:follows-policy" name="openstack/keystonemiddleware.git" path="openstack/keystonemiddleware" />
+  <project groups="keystone,offical,identity,stable:follows-policy,vulnerability:managed" name="openstack/keystonemiddleware.git" path="openstack/keystonemiddleware" />
   <project groups="" name="openstack/kiloeyes.git" path="openstack/kiloeyes" />
   <project groups="" name="openstack/kingbird.git" path="openstack/kingbird" />
   <project groups="" name="openstack/kingbird-dashboard.git" path="openstack/kingbird-dashboard" />
@@ -1065,7 +1138,8 @@
   <project groups="" name="openstack/kloudbuster.git" path="openstack/kloudbuster" />
   <project groups="kolla,offical" name="openstack/kolla.git" path="openstack/kolla" />
   <project groups="kolla,offical" name="openstack/kolla-ansible.git" path="openstack/kolla-ansible" />
-  <project groups="kolla,offical" name="openstack/kolla-kubernetes.git" path="openstack/kolla-kubernetes" />
+  <project groups="kolla,offical" name="openstack/kolla-cli.git" path="openstack/kolla-cli" />
+  <project groups="" name="openstack/kolla-kubernetes.git" path="openstack/kolla-kubernetes" />
   <project groups="" name="openstack/kolla-mesos.git" path="openstack/kolla-mesos" />
   <project groups="" name="openstack/kosmos.git" path="openstack/kosmos" />
   <project groups="" name="openstack/kosmos-specs.git" path="openstack/kosmos-specs" />
@@ -1109,6 +1183,7 @@
   <project groups="masakari,offical,instance-ha" name="openstack/masakari-specs.git" path="openstack/masakari-specs" />
   <project groups="" name="openstack/meghdwar.git" path="openstack/meghdwar" />
   <project groups="" name="openstack/merlin.git" path="openstack/merlin" />
+  <project groups="" name="openstack/metalsmith.git" path="openstack/metalsmith" />
   <project groups="" name="openstack/meteos.git" path="openstack/meteos" />
   <project groups="" name="openstack/meteos-ui.git" path="openstack/meteos-ui" />
   <project groups="" name="openstack/microversion-parse.git" path="openstack/microversion-parse" />
@@ -1161,6 +1236,7 @@
   <project groups="" name="openstack/network-checker.git" path="openstack/network-checker" />
   <project groups="" name="openstack/networking-6wind.git" path="openstack/networking-6wind" />
   <project groups="" name="openstack/networking-ale-omniswitch.git" path="openstack/networking-ale-omniswitch" />
+  <project groups="" name="openstack/networking-ansible.git" path="openstack/networking-ansible" />
   <project groups="" name="openstack/networking-arista.git" path="openstack/networking-arista" />
   <project groups="" name="openstack/networking-avaya.git" path="openstack/networking-avaya" />
   <project groups="neutron,offical,network" name="openstack/networking-bagpipe.git" path="openstack/networking-bagpipe" />
@@ -1200,7 +1276,7 @@
   <project groups="" name="openstack/networking-ovs-dpdk.git" path="openstack/networking-ovs-dpdk" />
   <project groups="" name="openstack/networking-peregrine.git" path="openstack/networking-peregrine" />
   <project groups="" name="openstack/networking-plumgrid.git" path="openstack/networking-plumgrid" />
-  <project groups="" name="openstack/networking-powervm.git" path="openstack/networking-powervm" />
+  <project groups="powervmstackers,offical,stable:follows-policy" name="openstack/networking-powervm.git" path="openstack/networking-powervm" />
   <project groups="neutron,offical,network" name="openstack/networking-sfc.git" path="openstack/networking-sfc" />
   <project groups="" name="openstack/networking-spp.git" path="openstack/networking-spp" />
   <project groups="" name="openstack/networking-vpp.git" path="openstack/networking-vpp" />
@@ -1226,7 +1302,7 @@
   <project groups="" name="openstack/nova-fusioncompute.git" path="openstack/nova-fusioncompute" />
   <project groups="" name="openstack/nova-lxd.git" path="openstack/nova-lxd" />
   <project groups="" name="openstack/nova-mksproxy.git" path="openstack/nova-mksproxy" />
-  <project groups="" name="openstack/nova-powervm.git" path="openstack/nova-powervm" />
+  <project groups="powervmstackers,offical,stable:follows-policy" name="openstack/nova-powervm.git" path="openstack/nova-powervm" />
   <project groups="" name="openstack/nova-solver-scheduler.git" path="openstack/nova-solver-scheduler" />
   <project groups="nova,offical,compute,placement" name="openstack/nova-specs.git" path="openstack/nova-specs" />
   <project groups="" name="openstack/nova-zvm-virt-driver.git" path="openstack/nova-zvm-virt-driver" />
@@ -1234,7 +1310,7 @@
   <project groups="" name="openstack/novajoin-tempest-plugin.git" path="openstack/novajoin-tempest-plugin" />
   <project groups="" name="openstack/oaktree.git" path="openstack/oaktree" />
   <project groups="" name="openstack/oaktreemodel.git" path="openstack/oaktreemodel" />
-  <project groups="octavia,offical,load-balancer,stable:follows-policy" name="openstack/octavia.git" path="openstack/octavia" />
+  <project groups="octavia,offical,load-balancer,stable:follows-policy,assert:supports-upgrade,assert:supports-accessible-upgrade" name="openstack/octavia.git" path="openstack/octavia" />
   <project groups="octavia,offical,load-balancer,stable:follows-policy" name="openstack/octavia-dashboard.git" path="openstack/octavia-dashboard" />
   <project groups="octavia,offical,load-balancer" name="openstack/octavia-tempest-plugin.git" path="openstack/octavia-tempest-plugin" />
   <project groups="" name="openstack/omni.git" path="openstack/omni" />
@@ -1258,6 +1334,7 @@
   <project groups="openstackansible,offical" name="openstack/openstack-ansible-os_almanach.git" path="openstack/openstack-ansible-os_almanach" />
   <project groups="openstackansible,offical" name="openstack/openstack-ansible-os_aodh.git" path="openstack/openstack-ansible-os_aodh" />
   <project groups="openstackansible,offical" name="openstack/openstack-ansible-os_barbican.git" path="openstack/openstack-ansible-os_barbican" />
+  <project groups="openstackansible,offical" name="openstack/openstack-ansible-os_blazar.git" path="openstack/openstack-ansible-os_blazar" />
   <project groups="openstackansible,offical" name="openstack/openstack-ansible-os_ceilometer.git" path="openstack/openstack-ansible-os_ceilometer" />
   <project groups="openstackansible,offical" name="openstack/openstack-ansible-os_cinder.git" path="openstack/openstack-ansible-os_cinder" />
   <project groups="openstackansible,offical" name="openstack/openstack-ansible-os_cloudkitty.git" path="openstack/openstack-ansible-os_cloudkitty" />
@@ -1272,6 +1349,7 @@
   <project groups="openstackansible,offical" name="openstack/openstack-ansible-os_karbor.git" path="openstack/openstack-ansible-os_karbor" />
   <project groups="openstackansible,offical" name="openstack/openstack-ansible-os_keystone.git" path="openstack/openstack-ansible-os_keystone" />
   <project groups="openstackansible,offical" name="openstack/openstack-ansible-os_magnum.git" path="openstack/openstack-ansible-os_magnum" />
+  <project groups="openstackansible,offical" name="openstack/openstack-ansible-os_masakari.git" path="openstack/openstack-ansible-os_masakari" />
   <project groups="openstackansible,offical" name="openstack/openstack-ansible-os_molteniron.git" path="openstack/openstack-ansible-os_molteniron" />
   <project groups="openstackansible,offical" name="openstack/openstack-ansible-os_monasca.git" path="openstack/openstack-ansible-os_monasca" />
   <project groups="openstackansible,offical" name="openstack/openstack-ansible-os_monasca-agent.git" path="openstack/openstack-ansible-os_monasca-agent" />
@@ -1290,6 +1368,7 @@
   <project groups="openstackansible,offical" name="openstack/openstack-ansible-os_trove.git" path="openstack/openstack-ansible-os_trove" />
   <project groups="openstackansible,offical" name="openstack/openstack-ansible-os_watcher.git" path="openstack/openstack-ansible-os_watcher" />
   <project groups="openstackansible,offical" name="openstack/openstack-ansible-os_zaqar.git" path="openstack/openstack-ansible-os_zaqar" />
+  <project groups="openstackansible,offical" name="openstack/openstack-ansible-os_zun.git" path="openstack/openstack-ansible-os_zun" />
   <project groups="openstackansible,offical" name="openstack/openstack-ansible-pip_install.git" path="openstack/openstack-ansible-pip_install" />
   <project groups="openstackansible,offical" name="openstack/openstack-ansible-pip_lock_down.git" path="openstack/openstack-ansible-pip_lock_down" />
   <project groups="openstackansible,offical" name="openstack/openstack-ansible-plugins.git" path="openstack/openstack-ansible-plugins" />
@@ -1316,14 +1395,17 @@
   <project groups="" name="openstack/openstack-resource-agents-specs.git" path="openstack/openstack-resource-agents-specs" />
   <project groups="" name="openstack/openstack-salt.git" path="openstack/openstack-salt" />
   <project groups="" name="openstack/openstack-salt-specs.git" path="openstack/openstack-salt-specs" />
+  <project groups="" name="openstack/openstack-service-broker.git" path="openstack/openstack-service-broker" />
   <project groups="" name="openstack/openstack-spaceport.git" path="openstack/openstack-spaceport" />
   <project groups="" name="openstack/openstack-specs.git" path="openstack/openstack-specs" />
   <project groups="" name="openstack/openstack-ux.git" path="openstack/openstack-ux" />
   <project groups="openstackclient,offical" name="openstack/openstackclient.git" path="openstack/openstackclient" />
   <project groups="documentation,offical" name="openstack/openstackdocstheme.git" path="openstack/openstackdocstheme" />
+  <project groups="openstacksdk,offical,assert:follows-standard-deprecation" name="openstack/openstacksdk.git" path="openstack/openstacksdk" />
   <project groups="" name="openstack/operations-guide.git" path="openstack/operations-guide" />
   <project groups="" name="openstack/ops-tags-team.git" path="openstack/ops-tags-team" />
   <project groups="" name="openstack/ops-telecom-nfv.git" path="openstack/ops-telecom-nfv" />
+  <project groups="cyborg,offical" name="openstack/os-acc.git" path="openstack/os-acc" />
   <project groups="documentation,offical" name="openstack/os-api-ref.git" path="openstack/os-api-ref" />
   <project groups="tripleo,offical" name="openstack/os-apply-config.git" path="openstack/os-apply-config" />
   <project groups="cinder,offical,block-storage" name="openstack/os-brick.git" path="openstack/os-brick" />
@@ -1354,7 +1436,7 @@
   <project groups="oslo,offical,stable:follows-policy" name="openstack/oslo.context.git" path="openstack/oslo.context" />
   <project groups="oslo,offical,stable:follows-policy" name="openstack/oslo.db.git" path="openstack/oslo.db" />
   <project groups="oslo,offical,stable:follows-policy" name="openstack/oslo.i18n.git" path="openstack/oslo.i18n" />
-  <project groups="" name="openstack/oslo.limit.git" path="openstack/oslo.limit" />
+  <project groups="oslo,offical" name="openstack/oslo.limit.git" path="openstack/oslo.limit" />
   <project groups="oslo,offical,stable:follows-policy" name="openstack/oslo.log.git" path="openstack/oslo.log" />
   <project groups="oslo,offical,stable:follows-policy" name="openstack/oslo.messaging.git" path="openstack/oslo.messaging" />
   <project groups="oslo,offical,stable:follows-policy" name="openstack/oslo.middleware.git" path="openstack/oslo.middleware" />
@@ -1388,6 +1470,7 @@
   <project groups="telemetry,offical,assert:follows-standard-deprecation" name="openstack/panko.git" path="openstack/panko" />
   <project groups="quality-assurance,offical" name="openstack/patrole.git" path="openstack/patrole" />
   <project groups="tripleo,offical" name="openstack/paunch.git" path="openstack/paunch" />
+  <project groups="" name="openstack/pbrx.git" path="openstack/pbrx" />
   <project groups="" name="openstack/performa.git" path="openstack/performa" />
   <project groups="rally,offical" name="openstack/performance-docs.git" path="openstack/performance-docs" />
   <project groups="" name="openstack/picasso.git" path="openstack/picasso" />
@@ -1409,8 +1492,9 @@
   <project groups="puppet-openstack,offical" name="openstack/puppet-congress.git" path="openstack/puppet-congress" />
   <project groups="puppet-openstack,offical" name="openstack/puppet-designate.git" path="openstack/puppet-designate" />
   <project groups="puppet-openstack,offical" name="openstack/puppet-ec2api.git" path="openstack/puppet-ec2api" />
+  <project groups="" name="openstack/puppet-fenix.git" path="openstack/puppet-fenix" />
   <project groups="puppet-openstack,offical" name="openstack/puppet-freezer.git" path="openstack/puppet-freezer" />
-  <project groups="puppet-openstack,offical" name="openstack/puppet-ganesha.git" path="openstack/puppet-ganesha" />
+  <project groups="" name="openstack/puppet-ganesha.git" path="openstack/puppet-ganesha" />
   <project groups="puppet-openstack,offical" name="openstack/puppet-glance.git" path="openstack/puppet-glance" />
   <project groups="puppet-openstack,offical" name="openstack/puppet-glare.git" path="openstack/puppet-glare" />
   <project groups="puppet-openstack,offical" name="openstack/puppet-gnocchi.git" path="openstack/puppet-gnocchi" />
@@ -1439,11 +1523,12 @@
   <project groups="puppet-openstack,offical" name="openstack/puppet-openstack_spec_helper.git" path="openstack/puppet-openstack_spec_helper" />
   <project groups="puppet-openstack,offical" name="openstack/puppet-oslo.git" path="openstack/puppet-oslo" />
   <project groups="puppet-openstack,offical" name="openstack/puppet-ovn.git" path="openstack/puppet-ovn" />
-  <project groups="" name="openstack/puppet-pacemaker.git" path="openstack/puppet-pacemaker" />
+  <project groups="tripleo,offical" name="openstack/puppet-pacemaker.git" path="openstack/puppet-pacemaker" />
   <project groups="puppet-openstack,offical" name="openstack/puppet-panko.git" path="openstack/puppet-panko" />
   <project groups="puppet-openstack,offical" name="openstack/puppet-qdr.git" path="openstack/puppet-qdr" />
   <project groups="puppet-openstack,offical" name="openstack/puppet-rally.git" path="openstack/puppet-rally" />
   <project groups="puppet-openstack,offical" name="openstack/puppet-sahara.git" path="openstack/puppet-sahara" />
+  <project groups="puppet-openstack,offical" name="openstack/puppet-senlin.git" path="openstack/puppet-senlin" />
   <project groups="" name="openstack/puppet-setproxy.git" path="openstack/puppet-setproxy" />
   <project groups="" name="openstack/puppet-surveil.git" path="openstack/puppet-surveil" />
   <project groups="puppet-openstack,offical" name="openstack/puppet-swift.git" path="openstack/puppet-swift" />
@@ -1461,9 +1546,10 @@
   <project groups="" name="openstack/pyghmi.git" path="openstack/pyghmi" />
   <project groups="" name="openstack/pylockfile.git" path="openstack/pylockfile" />
   <project groups="packaging-rpm,offical" name="openstack/pymod2pkg.git" path="openstack/pymod2pkg" />
-  <project groups="" name="openstack/python-adjutantclient.git" path="openstack/python-adjutantclient" />
+  <project groups="adjutant,offical" name="openstack/python-adjutantclient.git" path="openstack/python-adjutantclient" />
   <project groups="" name="openstack/python-almanachclient.git" path="openstack/python-almanachclient" />
   <project groups="telemetry,offical" name="openstack/python-aodhclient.git" path="openstack/python-aodhclient" />
+  <project groups="" name="openstack/python-apmecclient.git" path="openstack/python-apmecclient" />
   <project groups="" name="openstack/python-appcatalogclient.git" path="openstack/python-appcatalogclient" />
   <project groups="barbican,offical,key-manager,vulnerability:managed" name="openstack/python-barbicanclient.git" path="openstack/python-barbicanclient" />
   <project groups="" name="openstack/python-bileanclient.git" path="openstack/python-bileanclient" />
@@ -1478,11 +1564,13 @@
   <project groups="congress,offical,operator-policy" name="openstack/python-congressclient.git" path="openstack/python-congressclient" />
   <project groups="" name="openstack/python-cratonclient.git" path="openstack/python-cratonclient" />
   <project groups="" name="openstack/python-cueclient.git" path="openstack/python-cueclient" />
+  <project groups="cyborg,offical" name="openstack/python-cyborgclient.git" path="openstack/python-cyborgclient" />
   <project groups="designate,offical,dns,stable:follows-policy" name="openstack/python-designateclient.git" path="openstack/python-designateclient" />
   <project groups="" name="openstack/python-distilclient.git" path="openstack/python-distilclient" />
   <project groups="" name="openstack/python-don.git" path="openstack/python-don" />
   <project groups="" name="openstack/python-dracclient.git" path="openstack/python-dracclient" />
   <project groups="" name="openstack/python-evoqueclient.git" path="openstack/python-evoqueclient" />
+  <project groups="" name="openstack/python-fenixclient.git" path="openstack/python-fenixclient" />
   <project groups="freezer,offical" name="openstack/python-freezerclient.git" path="openstack/python-freezerclient" />
   <project groups="" name="openstack/python-fuelclient.git" path="openstack/python-fuelclient" />
   <project groups="" name="openstack/python-ganttclient.git" path="openstack/python-ganttclient" />
@@ -1518,7 +1606,6 @@
   <project groups="octavia,offical,load-balancer,stable:follows-policy" name="openstack/python-octaviaclient.git" path="openstack/python-octaviaclient" />
   <project groups="" name="openstack/python-oneviewclient.git" path="openstack/python-oneviewclient" />
   <project groups="openstackclient,offical" name="openstack/python-openstackclient.git" path="openstack/python-openstackclient" />
-  <project groups="openstacksdk,offical,assert:follows-standard-deprecation" name="openstack/python-openstacksdk.git" path="openstack/python-openstacksdk" />
   <project groups="" name="openstack/python-opentsdbclient.git" path="openstack/python-opentsdbclient" />
   <project groups="telemetry,offical" name="openstack/python-pankoclient.git" path="openstack/python-pankoclient" />
   <project groups="" name="openstack/python-picassoclient.git" path="openstack/python-picassoclient" />
@@ -1606,6 +1693,7 @@
   <project groups="" name="openstack/shotgun.git" path="openstack/shotgun" />
   <project groups="" name="openstack/shovel.git" path="openstack/shovel" />
   <project groups="" name="openstack/shovel-horizon.git" path="openstack/shovel-horizon" />
+  <project groups="" name="openstack/slogging.git" path="openstack/slogging" />
   <project groups="" name="openstack/snap-ceilometer.git" path="openstack/snap-ceilometer" />
   <project groups="" name="openstack/snap-cinder.git" path="openstack/snap-cinder" />
   <project groups="" name="openstack/snap-glance.git" path="openstack/snap-glance" />
@@ -1649,6 +1737,24 @@
   <project groups="" name="openstack/sticks.git" path="openstack/sticks" />
   <project groups="" name="openstack/sticks-dashboard.git" path="openstack/sticks-dashboard" />
   <project groups="storlets,offical" name="openstack/storlets.git" path="openstack/storlets" />
+  <project groups="" name="openstack/stx-clients.git" path="openstack/stx-clients" />
+  <project groups="" name="openstack/stx-config.git" path="openstack/stx-config" />
+  <project groups="" name="openstack/stx-docs.git" path="openstack/stx-docs" />
+  <project groups="" name="openstack/stx-fault.git" path="openstack/stx-fault" />
+  <project groups="" name="openstack/stx-gplv2.git" path="openstack/stx-gplv2" />
+  <project groups="" name="openstack/stx-gplv3.git" path="openstack/stx-gplv3" />
+  <project groups="" name="openstack/stx-gui.git" path="openstack/stx-gui" />
+  <project groups="" name="openstack/stx-ha.git" path="openstack/stx-ha" />
+  <project groups="" name="openstack/stx-integ.git" path="openstack/stx-integ" />
+  <project groups="" name="openstack/stx-manifest.git" path="openstack/stx-manifest" />
+  <project groups="" name="openstack/stx-metal.git" path="openstack/stx-metal" />
+  <project groups="" name="openstack/stx-nfv.git" path="openstack/stx-nfv" />
+  <project groups="" name="openstack/stx-root.git" path="openstack/stx-root" />
+  <project groups="" name="openstack/stx-tis-repo.git" path="openstack/stx-tis-repo" />
+  <project groups="" name="openstack/stx-tools.git" path="openstack/stx-tools" />
+  <project groups="" name="openstack/stx-update.git" path="openstack/stx-update" />
+  <project groups="" name="openstack/stx-upstream.git" path="openstack/stx-upstream" />
+  <project groups="" name="openstack/stx-utils.git" path="openstack/stx-utils" />
   <project groups="" name="openstack/surveil.git" path="openstack/surveil" />
   <project groups="" name="openstack/surveil-specs.git" path="openstack/surveil-specs" />
   <project groups="ironic,offical,baremetal" name="openstack/sushy.git" path="openstack/sushy" />
@@ -1697,9 +1803,10 @@
   <project groups="tripleo,offical" name="openstack/tripleo-common.git" path="openstack/tripleo-common" />
   <project groups="tripleo,offical" name="openstack/tripleo-common-tempest-plugin.git" path="openstack/tripleo-common-tempest-plugin" />
   <project groups="tripleo,offical" name="openstack/tripleo-docs.git" path="openstack/tripleo-docs" />
+  <project groups="tripleo,offical" name="openstack/tripleo-ha-utils.git" path="openstack/tripleo-ha-utils" />
   <project groups="tripleo,offical" name="openstack/tripleo-heat-templates.git" path="openstack/tripleo-heat-templates" />
   <project groups="tripleo,offical" name="openstack/tripleo-image-elements.git" path="openstack/tripleo-image-elements" />
-  <project groups="tripleo,offical" name="openstack/tripleo-incubator.git" path="openstack/tripleo-incubator" />
+  <project groups="" name="openstack/tripleo-incubator.git" path="openstack/tripleo-incubator" />
   <project groups="tripleo,offical" name="openstack/tripleo-ipsec.git" path="openstack/tripleo-ipsec" />
   <project groups="tripleo,offical" name="openstack/tripleo-puppet-elements.git" path="openstack/tripleo-puppet-elements" />
   <project groups="tripleo,offical" name="openstack/tripleo-quickstart.git" path="openstack/tripleo-quickstart" />
@@ -1753,19 +1860,19 @@
   <project groups="" name="openstack/xstatic-angular-fileupload.git" path="openstack/xstatic-angular-fileupload" />
   <project groups="horizon,offical" name="openstack/xstatic-angular-gettext.git" path="openstack/xstatic-angular-gettext" />
   <project groups="horizon,offical" name="openstack/xstatic-angular-lrdragndrop.git" path="openstack/xstatic-angular-lrdragndrop" />
-  <project groups="" name="openstack/xstatic-angular-material.git" path="openstack/xstatic-angular-material" />
+  <project groups="horizon,offical" name="openstack/xstatic-angular-material.git" path="openstack/xstatic-angular-material" />
   <project groups="" name="openstack/xstatic-angular-mock.git" path="openstack/xstatic-angular-mock" />
-  <project groups="" name="openstack/xstatic-angular-notify.git" path="openstack/xstatic-angular-notify" />
+  <project groups="horizon,offical" name="openstack/xstatic-angular-notify.git" path="openstack/xstatic-angular-notify" />
   <project groups="" name="openstack/xstatic-angular-sanitize.git" path="openstack/xstatic-angular-sanitize" />
   <project groups="horizon,offical" name="openstack/xstatic-angular-smart-table.git" path="openstack/xstatic-angular-smart-table" />
   <project groups="horizon,offical" name="openstack/xstatic-angular-ui-router.git" path="openstack/xstatic-angular-ui-router" />
-  <project groups="" name="openstack/xstatic-angular-uuid.git" path="openstack/xstatic-angular-uuid" />
-  <project groups="" name="openstack/xstatic-angular-vis.git" path="openstack/xstatic-angular-vis" />
+  <project groups="horizon,offical" name="openstack/xstatic-angular-uuid.git" path="openstack/xstatic-angular-uuid" />
+  <project groups="horizon,offical" name="openstack/xstatic-angular-vis.git" path="openstack/xstatic-angular-vis" />
   <project groups="horizon,offical" name="openstack/xstatic-bootstrap-datepicker.git" path="openstack/xstatic-bootstrap-datepicker" />
   <project groups="horizon,offical" name="openstack/xstatic-bootstrap-scss.git" path="openstack/xstatic-bootstrap-scss" />
   <project groups="horizon,offical" name="openstack/xstatic-bootswatch.git" path="openstack/xstatic-bootswatch" />
   <project groups="horizon,offical" name="openstack/xstatic-d3.git" path="openstack/xstatic-d3" />
-  <project groups="" name="openstack/xstatic-filesaver.git" path="openstack/xstatic-filesaver" />
+  <project groups="horizon,offical" name="openstack/xstatic-filesaver.git" path="openstack/xstatic-filesaver" />
   <project groups="horizon,offical" name="openstack/xstatic-font-awesome.git" path="openstack/xstatic-font-awesome" />
   <project groups="horizon,offical" name="openstack/xstatic-hogan.git" path="openstack/xstatic-hogan" />
   <project groups="horizon,offical" name="openstack/xstatic-jasmine.git" path="openstack/xstatic-jasmine" />
@@ -1773,16 +1880,16 @@
   <project groups="" name="openstack/xstatic-jquery.bootstrap.wizard.git" path="openstack/xstatic-jquery.bootstrap.wizard" />
   <project groups="horizon,offical" name="openstack/xstatic-jquery.quicksearch.git" path="openstack/xstatic-jquery.quicksearch" />
   <project groups="horizon,offical" name="openstack/xstatic-jquery.tablesorter.git" path="openstack/xstatic-jquery.tablesorter" />
-  <project groups="" name="openstack/xstatic-js-yaml.git" path="openstack/xstatic-js-yaml" />
+  <project groups="horizon,offical" name="openstack/xstatic-js-yaml.git" path="openstack/xstatic-js-yaml" />
   <project groups="horizon,offical" name="openstack/xstatic-jsencrypt.git" path="openstack/xstatic-jsencrypt" />
-  <project groups="" name="openstack/xstatic-json2yaml.git" path="openstack/xstatic-json2yaml" />
+  <project groups="horizon,offical" name="openstack/xstatic-json2yaml.git" path="openstack/xstatic-json2yaml" />
   <project groups="horizon,offical" name="openstack/xstatic-magic-search.git" path="openstack/xstatic-magic-search" />
   <project groups="horizon,offical" name="openstack/xstatic-mdi.git" path="openstack/xstatic-mdi" />
   <project groups="" name="openstack/xstatic-qunit.git" path="openstack/xstatic-qunit" />
   <project groups="horizon,offical" name="openstack/xstatic-rickshaw.git" path="openstack/xstatic-rickshaw" />
   <project groups="horizon,offical" name="openstack/xstatic-roboto-fontface.git" path="openstack/xstatic-roboto-fontface" />
   <project groups="horizon,offical" name="openstack/xstatic-spin.git" path="openstack/xstatic-spin" />
-  <project groups="" name="openstack/xstatic-vis.git" path="openstack/xstatic-vis" />
+  <project groups="horizon,offical" name="openstack/xstatic-vis.git" path="openstack/xstatic-vis" />
   <project groups="murano,offical,application-catalog" name="openstack/yaql.git" path="openstack/yaql" />
   <project groups="zaqar,offical,message,stable:follows-policy,assert:follows-standard-deprecation" name="openstack/zaqar.git" path="openstack/zaqar" />
   <project groups="zaqar,offical,message" name="openstack/zaqar-specs.git" path="openstack/zaqar-specs" />
