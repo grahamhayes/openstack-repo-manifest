@@ -1,4 +1,6 @@
+* accelerator 
 * adjutant 
+* admin-logic 
 * application-catalog 
 * application-container 
 * application-deployment 
@@ -25,9 +27,9 @@
 * designate 
 * dns 
 * documentation 
-* dragonflow 
 * ec2-api 
 * freezer 
+* function-engine 
 * glance 
 * heat 
 * horizon 
@@ -75,7 +77,6 @@
 * quality-assurance 
 * rally 
 * rating 
-* refstack 
 * release-management 
 * requirements 
 * reservation 
@@ -84,7 +85,6 @@
 * sahara 
 * search 
 * searchlight 
-* security 
 * senlin 
 * shared-file-system 
 * solum 
