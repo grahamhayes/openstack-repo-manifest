@@ -37,7 +37,7 @@ def indent(elem, level=0):
       elem.tail = i
 
 def main():
-    projects = yaml.load(open('../../openstack-infra/project-config/gerrit/projects.yaml'))
+    projects = yaml.load(open('../../openstack/project-config/gerrit/projects.yaml'))
     governance = yaml.load(open('../../openstack/governance/reference/projects.yaml'))
     service_types = os_service_types.ServiceTypes()
     tags = dict()

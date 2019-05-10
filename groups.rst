@@ -13,7 +13,6 @@
 * baremetal 
 * blazar 
 * block-storage 
-* chef-openstack 
 * cinder 
 * cloudkitty 
 * clustering 
@@ -62,6 +61,7 @@
 * octavia 
 * offical 
 * openstack-charms 
+* openstack-chef 
 * openstack-helm 
 * openstackansible 
 * openstackclient 
